@@ -63,20 +63,85 @@ figure img:hover {
 .con, .con1 {
     display: flex;
    justify-content: space-around;
-   padding-bottom: 20px;
+   padding-bottom: 30px;
 }
 .con section {
     border: 1px solid #E1E1E1;
     padding: 20px;
+    border-radius: 5px;
 }
 .con1 section {
     border: 1px solid #E1E1E1;
     padding: 30px;
+    border-radius: 5px;
 }
 .sec2 h2 {
-    text-align: center;
+    padding-left: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 4.5vh;
+}
+.sec2 {
+    padding-bottom: 50px;
+}.sec3 {
+    background-color: #D7F5F5;
+    padding-bottom: 50px;
+}
+.sec4 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.sec3 h2 {
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 4.5vh;
+}
+.con2 {
+    display: flex;
+    justify-content: space-between;
+}
+.con3 {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.one {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.one1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.one2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+.png {
+    display: flex;
+    justify-content: space-between;
     padding-top: 30px;
-    padding-bottom: 30px;
+}
+.twi {
+    margin-top: -40px;
+}
+p {
+    line-height: 4vh;
+}
+.sec5 {
+    text-align: center;
+    /* align-items: center; */
+}
+.monthly {
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 
