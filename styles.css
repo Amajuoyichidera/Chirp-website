@@ -7,6 +7,7 @@
 }
 body {
     font-family: 'Inter', sans-serif;
+    width: 100%;
 }
 .sec {
     background-color: #FBF8F3;
@@ -25,7 +26,8 @@ button {
     border: none;
     background-color: #1DA1F2;
     color: white;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 5px;
@@ -35,11 +37,6 @@ button img {
     margin-right: 10px;
    height: 2vh;
    margin-top: 5px;
-}
-.sec1 button {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 15px;
 }
 span {
     color: #1DA1F2;
@@ -136,15 +133,66 @@ p {
     line-height: 4vh;
 }
 .sec5 {
+    display: block;
+    margin: 0 auto;
+    width: 430px;
     text-align: center;
-    /* align-items: center; */
+    padding-bottom: 70px;
+}
+.simple {
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 .monthly {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    border: 1px solid #FDD28B;
+    background-color: #FBF8F3;
+    border-radius: 7px;
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
-
-
+hr {
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.check {
+    display: flex;
+    gap: 10px;
+}
+.check img {
+    padding-bottom: 10px;
+}
+h3 {
+    font-size: 4vh;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.chirp {
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #D7F5F5;
+}
+.last {
+    display: flex;
+    gap: 20px;
+}
+.sign {
+    display: flex;
+}
+.sign button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+b {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #1F7898;
+}
 
 
 
@@ -203,10 +251,7 @@ a {
 
 
 
-
-
-
-@media(max-width:767px) {
+@media screen and (max-width:768px) {
     .hamburger{
         display: block;
     } 
@@ -243,5 +288,112 @@ a {
 
      .nav-menu.active {
         left: 0;
+     }
+     .sec1 {
+        flex-direction: column-reverse;
+        padding-left: 20px;
+        padding-right: 20px;
+     }
+     .sign {
+        flex-direction: column;
+     }
+     .con, .con1 {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px;
+        padding-bottom: 20px;
+     }
+     .sec3 {
+        padding-bottom: 10px;
+     }
+     .sec4 {
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+     }
+     .navbar {
+        justify-content: space-between;
+     }
+     .chirp {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+     }
+     .last {
+        gap: 20px;
+     }
+     .sec3 h2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 3.5vh;
+        font-weight: bolder;
+        padding-bottom: 20px;
+        padding-top: 20px;
+     }  
+     .sec2 h2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 3.5vh;
+        font-weight: bolder;
+        padding-bottom: 20px;
+        padding-top: 20px;
+     } 
+     .hero {
+        margin-left: -10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: -20px;
+     }  
+     h1 {
+        font-size: 4vh;
+        padding-top: 15px;
+        padding-bottom: 15px;
+     }
+     .monthly {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        padding-bottom: 30px;
+        margin-bottom: -35px;
+     }
+     .monthly p {
+        line-height: 2.7vh;
+     }
+     .sec5 {
+        width: 310px;
+     }
+     .check {
+        gap: 10px;
+     }
+     hr {
+        margin-bottom: 20px;
+     }
+     h3 {
+        font-size: 3vh;
+        padding-bottom: 10px;
+        padding-top: 10px;
+     }
+     .simple {
+        padding-top: 20px;
+     }
+     .one {
+        margin-bottom: -2px;
+     }
+     .one2 {
+        margin-bottom: 30px;
+     }
+     .sec2 {
+        padding-bottom: 20px;
+     }
+     b {
+        margin-top: 10px;
+        font-size: 2.5vh;
+        text-align: center;
+     }
+     p {
+        font-size: 1.8vh;
      }
 }
